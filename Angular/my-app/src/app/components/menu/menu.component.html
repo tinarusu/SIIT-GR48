@@ -1,0 +1,11 @@
+<header class="header">
+    <img src="../../../assets/logo.png" class="logo">
+    <nav class="menu">
+        <div class="site-nav">
+            <a routerLink="first-component">{{articleMenuText}}</a>
+            <a routerLink="second-component">{{blogMenuText}}</a>
+            <a (click)="goToNews()">{{newsMenuText}}</a>
+        </div>
+        <a (click)="goToAccount()" class="account-btn">{{accountMenuText}}</a>
+    </nav>
+</header>
